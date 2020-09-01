@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link rel = "stylesheet" href = "login.css">
+<script type="text/javascript">
+function validate() {
+	var email = document.getElementById("emailId").value;
+	var pwd = document.getElementById("pwd").value;
+	//Email Validation
+	if(email == "" || email == null) {
+		alert("Email cannot not be empty");
+		return false;
+	}
+	if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.email.value)) {
+	    alert("Valid email address!");
+	} 
+	else {
+	    alert("You have entered an invalid email address!")
+	    return false;
+	}
+	//Password Validation
+	if(pwd == "" || pwd == null || rpwd == "" || rpwd == null) {
+		alert("Password cannot be empty");
+	}
+	if(pwd != rpwd) {
+		alert("Re-entered password do not match");
+		return false;
+	}
+}
+</script>
+</head>
+<body>
+<div>
+<h1><b>Aisaksh Book Store</b></h1>
+</div>
+<div class="bg-img">
+  <form action="" name = "myForm">
+  <br><br>
+    <h2>Login</h2>
+    <br>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id = "emailId">
+    <br><br><br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id = "pwd">
+    <br><br><br>
+    <input type="checkbox"  name="remember" style="margin-bottom:15px"> Remember me <br><br>
+    <button type="submit" class="btn" onClick = "return validate()">Login</button>
+   
+  </form>
+</div>
+</body>
+</html>
