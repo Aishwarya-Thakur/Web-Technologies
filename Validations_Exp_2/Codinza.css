@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+div {
+	background-color : #26364B;
+	color : white;
+	padding : 25px;
+}
+p{
+	float:right;
+	text-align : right;
+}
+body {
+	background-color : #35AC9D;
+	font-family: Arial;
+	text-align : center;
+}
+img {
+	height : 100px;
+	width : 100px;
+}
+h2{
+	text-align : left;
+}
