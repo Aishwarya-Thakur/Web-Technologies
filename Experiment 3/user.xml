@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+    <user id="100">
+        <firstName>Aishwarya</firstName>
+        <lastName>Thakur</lastName>
+        <address>Hyderabad</address>
+    </user>
+ 
+    <user id="101">
+        <firstName>Ramya</firstName>
+        <lastName>Sharma</lastName>
+        <address>Khammam</address>
+    </user>
+   
+     <user id="102">
+        <firstName>Akshaya</firstName>
+        <lastName>Prathapagiri</lastName>
+        <address>Guntur</address>
+    </user>
+   
+     <user id="103">
+        <firstName>Ashokan</firstName>
+        <lastName>Varma</lastName>
+        <address>Nellore</address>
+    </user>
+   
+     <user id="104">
+        <firstName>Lavanya</firstName>
+        <lastName>Singh</lastName>
+        <address>Hanamkonda</address>
+    </user>
+   
+     <user id="105">
+        <firstName>Sneha</firstName>
+        <lastName>Gupta</lastName>
+        <address>Udayagiri</address>
+    </user>
+   
+     <user id="106">
+        <firstName>Afshaa</firstName>
+        <lastName>Khan</lastName>
+        <address>Tripura</address>
+    </user>
+   
+     <user id="107">
+        <firstName>Rohini</firstName>
+        <lastName>Shekhar</lastName>
+        <address>Laknavaram</address>
+    </user>
+   
+     <user id="108">
+        <firstName>Sanskriti</firstName>
+        <lastName>Singh</lastName>
+        <address>Narsampet</address>
+    </user>
+   
+     <user id="109">
+        <firstName>Priyanka</firstName>
+        <lastName>Naidu</lastName>
+        <address>Australia</address>
+    </user>
+   
+     <user id="110">
+        <firstName>Hasini</firstName>
+        <lastName>Timcy</lastName>
+        <address>London</address>
+    </user>
+ </user>
